@@ -1,0 +1,30 @@
+#m1
+# num1 =int(input("Enter the 1st number: "))
+# num2 =int(input("Enter the 2nd number: "))
+# num3 =int(input("Enter the 3rd number: "))
+# num4 =int(input("Enter the 4th number: "))
+# num5 =int(input("Enter the 5th number: "))
+# num6 =int(input("Enter the 6th number: "))
+# num7 =int(input("Enter the 7th number: "))
+# num8 =int(input("Enter the 8th number: "))
+# a = {num1,num2,num3,num4,num5,num6,num7,num8}
+# print (a)
+
+#m2 --> by using empty set 
+s = set()
+number =int(input("Enter the 1st number: "))
+s.add(number)
+number =int(input("Enter the 2nd number: "))
+s.add(number)
+number =int(input("Enter the 3rd number: "))
+s.add(number)
+number =int(input("Enter the 4th number: "))
+s.add(number)
+number =int(input("Enter the 5th number: "))
+s.add(number)
+number =int(input("Enter the 7th number: "))
+s.add(number)
+number =int(input("Enter the 8th number: "))
+s.add(number)
+
+print (s)
